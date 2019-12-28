@@ -1,0 +1,192 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+body{
+    background-color:#f4eff1;
+    color: #2b5355;
+    
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight:lighter;
+    
+    /* Same as Above */
+    font: 13px verdana, geneva, sans-serif;
+    
+    line-height: 1.6em;   
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #114;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: red;
+}
+/* so that everything doesn't go gray
+a:visited{
+    color: gray;
+}
+*/
+.cpn{
+    width: 75%;
+    margin: auto;
+}
+
+.clr{
+    clear: both; 
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    color: aliceblue;
+    background-color: #555
+}
+
+.button:hover{
+    background: red;
+    color: wheat;
+}
+
+.hit{font-family: Tahoma, Geneva, Sans-Serif;
+    padding-left: 30px;
+    padding: 20px 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 1em;
+    letter-spacing: 0.1em;
+    text-decoration-style: double;
+    font-style: oblique;
+}
+.box-p{
+    background-color: #223;
+    color: #ffd;
+    border: 4px #ccd solid;
+    padding: 20px;
+   /*increase only top width
+    border-top-width: 8px; 
+    */
+}
+
+.box-p2{
+    border: 4px #ccd dotted;
+    padding: 20px;
+}
+
+.cat{
+    border: 4px #ccd solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cat h3{
+    text-align: center;
+    text-transform: uppercase
+}
+
+.cat ul{
+    padding: 0px;
+    list-style: none;
+    padding: 20px;    
+}
+
+.cat li{
+    padding-bottom: 8px;
+    border-bottom: 2px dotted;
+    list-style-image: url(../Images/ban.png);
+}
+
+.form-group{
+    padding-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="date"]{
+    border: none;
+    color: aliceblue;
+    background-color: #555;
+    border-radius: 18px;
+}
+
+.block{
+    margin: 10px 0px;
+    padding: 10px;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccd;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #666;
+    color: #ddd;
+}
+
+.p-box{
+    margin-top: 10px;
+    border: 1px solid #555;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    background-image: url(../Images/Space.jpg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+
+.fix{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background-color: lavender;
+}
+.my-list li:last-child{
+    background-color: aquamarine;
+}
+.my-list li:nth-child(5){
+    background-color: bisque;
+}
+.my-list li:nth-child(even){
+    background-color: gainsboro;
+}
